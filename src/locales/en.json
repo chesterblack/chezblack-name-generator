@@ -1,0 +1,28 @@
+{
+  "common": {
+    "untitled": "Untitled"
+  },
+  "board": {
+    "add": "Add a note",
+    "count": {
+      "0": "no notes yet",
+      "one": "{count} note",
+      "other": "{count} notes"
+    },
+    "empty": "No notes yet.",
+    "emptyEditable": "No notes yet — add one, then open this world in a second window and watch it appear there too."
+  },
+  "note": {
+    "placeholder": "Write something…",
+    "link": "Link a document",
+    "linked": "linked document",
+    "open": "Open in your world",
+    "unlink": "Unlink document",
+    "delete": "Delete note"
+  },
+  "picker": {
+    "search": "Search your world…",
+    "create": "Create “{query}”",
+    "empty": "Nothing found"
+  }
+}

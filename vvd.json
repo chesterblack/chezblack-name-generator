@@ -1,0 +1,21 @@
+{
+  "id": "chezblack-name-generator",
+  "name": "chezblack-name-generator",
+  "kind": "tool",
+  "version": "0.1.0",
+  "icon": "sparkles",
+  "documentTypes": [
+    "chezblack-name-generator"
+  ],
+  "codecModule": "@/codec",
+  "locales": {
+    "default": "en"
+  },
+  "needs": [],
+  "capabilities": {
+    "readsWorld": true,
+    "writesWorld": true,
+    "sharing": false
+  },
+  "entryModule": "@/tool"
+}
