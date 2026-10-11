@@ -8,6 +8,14 @@ export type Note = {
   at: number
 }
 
+export type CardType = {
+	id: string
+	name: string
+	icon: string
+	color: string|null
+	parentTypeId: string
+}
+
 export type Pool = {
   name: string
   list: string[]

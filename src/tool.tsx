@@ -40,11 +40,13 @@ export function NameGeneratorView({ document, context }: ToolRenderProps) {
     () => ({ worldId: document.worldId, documentId: document.id }),
     [document.worldId, document.id],
   )
-  const { data, status, actions, retry, handle } = useDocument(coords, codec);
+  const { data, status, actions, retry, handle, Skeleton } = useDocument(coords, codec);
 
   return (
     <DocumentGate status={status} onRetry={retry}>
-      {data && actions && <Board data={data} actions={actions} handle={handle} canEdit={context.canEdit} worldId={document.worldId} />}
+      { data && actions &&
+        <Board data={data} actions={actions} handle={handle} canEdit={context.canEdit} worldId={document.worldId} Skeleton={ Skeleton } />
+      }
     </DocumentGate>
   )
 }
